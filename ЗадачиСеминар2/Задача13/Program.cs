@@ -1,2 +1,22 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Zadacha10
+{
+   class Zadachi
+    {
+         static void Main(string[] args)
+         {
+          Console.WriteLine("Введите число: "); 
+          int x = Convert.ToInt32(Console.ReadLine());
+          if (x < 100 || x > 999)
+            {
+                Console.WriteLine("Введено не трёхзначное число");
+            }
+            else 
+              {
+              x = x % 100;
+              x = x / 10;
+              Console.WriteLine($"Второе цифра это: {x}");
+              }
+         }
+
+     }  
+}   
