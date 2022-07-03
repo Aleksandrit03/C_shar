@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Zadacha10
+{
+   class Zadachi
+    {
+         static void Main(string[] args)
+        {
+          Console.WriteLine("Введите число: "); 
+          string str = Console.ReadLine();
+          Console.WriteLine(str[str.Length - 2]);
+         }
+     }  
+}   
+
