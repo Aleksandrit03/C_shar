@@ -1,0 +1,15 @@
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\bin\Debug\net6.0\Задача15.exe
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\bin\Debug\net6.0\Задача15.deps.json
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\bin\Debug\net6.0\Задача15.runtimeconfig.json
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\bin\Debug\net6.0\Задача15.dll
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\bin\Debug\net6.0\Задача15.pdb
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\obj\Debug\net6.0\Задача15.csproj.AssemblyReference.cache
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\obj\Debug\net6.0\Задача15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\obj\Debug\net6.0\Задача15.AssemblyInfoInputs.cache
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\obj\Debug\net6.0\Задача15.AssemblyInfo.cs
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\obj\Debug\net6.0\Задача15.csproj.CoreCompileInputs.cache
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\obj\Debug\net6.0\Задача15.dll
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\obj\Debug\net6.0\refint\Задача15.dll
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\obj\Debug\net6.0\Задача15.pdb
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\obj\Debug\net6.0\Задача15.genruntimeconfig.cache
+C:\Users\akhlo\OneDrive\Рабочий стол\С#\ЗадачиСеминар2\Задача15\obj\Debug\net6.0\ref\Задача15.dll
