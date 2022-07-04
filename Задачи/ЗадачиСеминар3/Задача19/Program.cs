@@ -1,14 +1,14 @@
 ﻿// Напишите программу, которая принимает на вход пятизначное число и проверяет, 
 // является ли оно палиндромом.
 
-namespace Zadacha10
+namespace Zadacha19
 {
    class Zadachi
     {
          static void Main(string[] args)
         {
           Console.WriteLine("Введите пятизначное число: ");
-          string number = Console.ReadLine();
+          string? number = Console.ReadLine();
           if (number.Length != 5)
             {
               Console.WriteLine($"Введенное число {number} не является пятизначным");
