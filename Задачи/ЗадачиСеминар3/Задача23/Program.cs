@@ -5,8 +5,15 @@ namespace Zadacha23
     {
          static void Main(string[] args)
         {
-          Console.WriteLine("Введите координаты первой точки");
-          
+          Console.WriteLine("Введите число: ");
+          int N = Convert.ToInt32(Console.ReadLine());
+          int i = 0;
+          while(i <= N)
+          {
+            double result = Math.Pow(i, 3);
+            Console.WriteLine($"Куб числа {i} равен {result}");
+            i++;
+          }
          Console.ReadKey();
          }
      }  
