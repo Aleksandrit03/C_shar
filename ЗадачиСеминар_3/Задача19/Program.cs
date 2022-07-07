@@ -9,7 +9,7 @@ namespace Zadacha19
         {
           Console.WriteLine("Введите пятизначное число: ");
           string? number = Console.ReadLine();
-          if (number.Length != 5)
+          if (number?.Length != 5)
             {
               Console.WriteLine($"Введенное число {number} не является пятизначным");
             }
