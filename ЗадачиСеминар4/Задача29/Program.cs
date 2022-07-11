@@ -7,17 +7,19 @@ namespace Zadacha29
     {
          static void Main(string[] args)
         {
-          Console.WriteLine("Массив до возведения чисел в квадрат: ");
-          int [] array = new int [new Random().Next(5,10)];
+          int [] array = new int [new Random().Next(5, 10)];
+          Random random = new Random();
           for (int i = 0; i < array.Length; i++)
           {
-            array [i] = Random.Next(1, 40);
+            array [i] = random.Next(1, 40);
+            Console.WriteLine($" {i} ");
           }
+          Console.WriteLine("Квадраты чисел массива: ");
            for (int i = 0; i < array.Length; i++)
           {
-            array [i] = Math.Pow(i, 2);
+            array [i] = Convert.ToInt32(Math.Pow(i, 2));
+            Console.WriteLine($"{array[i]}");
           }
-          Console.WriteLine($"{array[i]}");
          }
      }  
 }   
