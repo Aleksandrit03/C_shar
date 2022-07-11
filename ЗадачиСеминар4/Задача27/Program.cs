@@ -6,7 +6,15 @@ namespace Zadacha27
          static void Main(string[] args)
         {
           Console.WriteLine("Введите число: ");
-          int[] array = new int [Console.ReadLine()];
+          int number = Convert.ToInt32(Console.ReadLine());
+          int result = 0;
+          while (number > 0)
+          {
+            result = result + number%10;
+            number = number / 10;
+          }
+          result = result + number;
+          Console.WriteLine($"Сумма цифр в числе равна {result}");
          }
      }  
 }   
