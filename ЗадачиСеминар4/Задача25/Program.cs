@@ -10,7 +10,13 @@ namespace Zadacha25
           int A = Convert.ToInt32(Console.ReadLine());
           Console.WriteLine("Введите второе число: ");
           int B = Convert.ToInt32(Console.ReadLine());
-          double result = Math.Pow(A, B);
+          double result = 1;
+          int i = 1;
+          while (i <= B)
+          {
+               result = result * A;
+               i++;
+          }
           Console.WriteLine($"{result}");
           Console.ReadKey();
          }
