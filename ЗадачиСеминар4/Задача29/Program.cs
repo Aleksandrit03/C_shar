@@ -12,12 +12,12 @@ namespace Zadacha29
           for (int i = 0; i < array.Length; i++)
           {
             array [i] = random.Next(1, 40);
-            Console.WriteLine($" {i} ");
+            Console.WriteLine($" {array[i]} ");
           }
           Console.WriteLine("Квадраты чисел массива: ");
            for (int i = 0; i < array.Length; i++)
           {
-            array [i] = Convert.ToInt32(Math.Pow(i, 2));
+            array [i] = array[i] * array[i];
             Console.WriteLine($"{array[i]}");
           }
          }
