@@ -6,7 +6,7 @@ namespace Zadacha36
     {
          static void Main(string[] args)
         {
-          int [] array = new int [new Random().Next(4, 4)];
+          int [] array = new int [new Random().Next(4, 6)];
           Random random = new Random();
           int result = 0;
           int i = 0;
@@ -16,14 +16,15 @@ namespace Zadacha36
             Console.WriteLine($" {array[i]} ");
             i++;
           }
-          i = 1;
+          i=1;
           while (i < array.Length)
           {
-            while (i % 2 ==0)
             result = result + array[i];
-            i++;
+            i = i + 2;
           }
           Console.WriteLine($"Сумма чисел на нечетных позициях: {result}");
+          Console.ReadKey();
          }
      }  
 }   
+
