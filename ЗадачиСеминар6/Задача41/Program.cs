@@ -6,18 +6,24 @@ namespace Zadacha41
     {
          static void Main(string[] args)
         {
-             Console.WriteLine("Введите числа через пробел: ");
-             string? massiv = Console.ReadLine();
-             string [] numbers = massiv.Split(' ');
-             int i = 0;
+             Console.WriteLine("Введите количество чисел, которое хотите ввести: ");
+             int size = Convert.ToInt32(Console.ReadLine());
+             Console.WriteLine();
+             int number = 0;
              int result = 0;
-             Console.WriteLine("Преобразованно в массив: ");
-             while (i < numbers.Length)
+             while(number < size)
              {
-                Console.Write($" {numbers[i]} ");
-                i++;
-                if (numbers [i] > 0) result++;
+               Console.Write("Введите число: ");
+               int i = Convert.ToInt32(Console.ReadLine());
+               if (i > 0)
+               {
+                  result++;
+                  number++;
+               }
+               else number++;
+               Console.WriteLine();
              }
+             Console.WriteLine($"Количество чисел больше нуля: {result}");
          }
      }  
 }   
