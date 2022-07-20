@@ -9,12 +9,12 @@ namespace Zadacha47
              int m = Convert.ToInt32(Console.ReadLine());
              Console.WriteLine("Введите значение столбцов n: ");
              int n = Convert.ToInt32(Console.ReadLine());
-             float [,] massiv = new float [m, n];
+             double [,] massiv = new double [m, n];
                 for (int i = 0; i < m; i++)
                 {
                     for (int j = 0; j < n; j++)
                     {
-                        massiv[i,j] = new Random().Next(-10,10);
+                        massiv[i,j] = new Random().NextDouble()*10;
                         Console.Write($" {massiv[i,j]} ");
                     }
                     Console.WriteLine();
